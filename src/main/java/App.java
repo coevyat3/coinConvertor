@@ -13,13 +13,13 @@ import java.util.Objects;
 import java.util.Scanner;
 public class App {
     private static Scanner sc = new Scanner(System.in);
-    private static List<Double> list = new ArrayList<>();             //Holding result list
-    private static List<Result> resultArrayList = new ArrayList<>(); //Holding Result objects
+    private static List<Double> list = new ArrayList<>();             // result list
+    private static List<Result> resultArrayList = new ArrayList<>(); // Result objects
     private static boolean outerLoop = true;
     private static boolean innerLoop = false;
     private static final String  file = "Result.txt";
     private static final String file2 = "Result2.txt";
-    private static List<Coin> cn = new ArrayList<>();           //Holding instance of Coin
+    private static List<Coin> cn = new ArrayList<>();           //list of instance of Coin
     static Character input;
     static DecimalFormat f = new DecimalFormat("##.###");
 
